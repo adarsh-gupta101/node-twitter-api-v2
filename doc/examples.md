@@ -46,7 +46,7 @@ For each implemented endpoint, you have a link to documentation available in JSD
 
 ### <a name='Withusercredentialsactasaloggeduser'></a>With user credentials (act as a logged user)
 
-This kind of auth is needed for endpoint mentionned with `"OAuth 1.0a User context"` or `"OAuth 2.0 Authorization Code with PKCE"` in Twitter documentation.
+This kind of auth is needed for endpoint mentioned with `"OAuth 1.0a User context"` or `"OAuth 2.0 Authorization Code with PKCE"` in Twitter documentation.
 Usually, this is used to act on behalf of a user.
 
 Access token and access secret are obtained through [the 3-legged auth flow](./auth.md).
